@@ -1,21 +1,34 @@
-# File_organizer
-Smart File Organizer (Java CLI Utility)
-Problem
-My Downloads folder gets cluttered with mixed file types, making it hard to locate files.
+# Smart File Organizer (Python Command-Line Utility)
 
-Solution
-This Java command-line utility automatically organizes files into folders based on their extensions.
+## Problem Statement
+On my system, folders such as **Downloads** and **Desktop** become cluttered with different file types like documents, images, videos, and installers. This makes it difficult to quickly locate files and requires manual, repetitive organization.
 
-How to Run
-Compile the program: javac FileOrganizer.java
+## Solution
+This project is a **Python-based command-line utility** that automatically organizes files in a given directory into categorized folders based on their file extensions.  
+The solution uses **only Python standard libraries** and focuses on clean logic, error handling, and usability.
 
-Run the program: java FileOrganizer "C:\Users\YourName\Downloads"
+## Features
+- Organizes files by type (Documents, Images, Videos, Archives, Others)
+- Accepts directory path as a command-line argument
+- Automatically creates folders if they do not exist
+- Handles invalid paths and empty directories safely
+- Lightweight and easy to run
 
-Design Decisions
-Used Java Standard Library only
-HashMap for easy file-type mapping
-Command-line arguments for flexibility
-Safe error handling for invalid paths and permissions
-Assumptions
-Files with unknown extensions go into "Others"
-Folder structure is created automatically
+## Folder Classification
+| Category   | Extensions |
+|-----------|------------|
+| Images    | jpg, jpeg, png |
+| Documents | pdf, txt, docx |
+| Videos    | mp4, mkv |
+| Archives  | zip, rar |
+| Others    | All remaining file types |
+
+## How to Run
+
+### 1. Prerequisites
+- Python 3.x installed
+- Python added to system PATH
+
+Verify installation:
+```bash
+python --version
