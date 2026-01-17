@@ -30,11 +30,11 @@ The solution uses **only Python standard libraries** and focuses on clean logic,
 - Python added to system PATH
 - python file_organizer.py "C:\Users\LENOVO\Downloads"
 ## sample Output
-Moved: resume.pdf -> Documents
-Moved: photo.jpg -> Images
-Moved: video.mp4 -> Videos
-Moved: setup.exe -> Others
-File organization completed successfully.
+* Moved: resume.pdf -> Documents
+* Moved: photo.jpg -> Images
+* Moved: video.mp4 -> Videos
+* Moved: setup.exe -> Others
+* File organization completed successfully.
 
 Verify installation:
 ```bash
